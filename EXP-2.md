@@ -20,10 +20,10 @@ Connect the output of FG to the modulation input with the proper frequency. Swit
 Connect the oscilloscope to the output of the modulator RN/RE.
 
 # BLOCK DIAGRAM:
-<img width="723" height="1092" alt="image" src="https://github.com/user-attachments/assets/3c5bf7f7-de6b-44de-8b17-0f0d6ed58743" />
+<img width="699" height="462" alt="image" src="https://github.com/user-attachments/assets/b12b9fed-2105-43b3-b214-1a06b382cdf8" />
 
 # MODEL GRAPH:
-<img width="515" height="946" alt="image" src="https://github.com/user-attachments/assets/57f13086-493a-4f18-b0b5-1f0e1172fe2c" />
+<img width="333" height="571" alt="image" src="https://github.com/user-attachments/assets/e2fe000a-48f5-4281-a1c7-99847167121a" />
 
 # OUTPUT GRAPH: 
 
