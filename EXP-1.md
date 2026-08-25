@@ -1,4 +1,4 @@
-<img width="776" height="472" alt="image" src="https://github.com/user-attachments/assets/916a56ad-4dfa-4a0f-a21e-1a5637c4904a" /># AIM:
+# AIM:
 To study an amplitude modulation and demodulation circuit and to calculate
 modulation index of AM.
 
