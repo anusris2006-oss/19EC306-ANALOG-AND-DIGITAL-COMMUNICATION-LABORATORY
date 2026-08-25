@@ -1,4 +1,4 @@
-# AIM:
+<img width="776" height="472" alt="image" src="https://github.com/user-attachments/assets/916a56ad-4dfa-4a0f-a21e-1a5637c4904a" /># AIM:
 To study an amplitude modulation and demodulation circuit and to calculate
 modulation index of AM.
 
@@ -24,10 +24,11 @@ b)	Modulation index equal to 1
 c)	Modulation index greater than 1
  
 # BLOCK DIAGRAM:
-<img width="486" height="575" alt="image" src="https://github.com/user-attachments/assets/2b01abc1-031a-45d6-8dc1-f860bd4688e6" />
+<img width="776" height="472" alt="image" src="https://github.com/user-attachments/assets/2b844604-c01b-43bb-a856-a69efadb3714" />
+
 
 # MODEL GRAPH:
-<img width="958" height="1345" alt="image" src="https://github.com/user-attachments/assets/37a4344a-d392-418f-84ea-671ac6cf7138" />
+<img width="613" height="861" alt="image" src="https://github.com/user-attachments/assets/7e0cf327-fb4a-42c2-b4f4-428a3fc274f6" />
 
 # GRAPH:
 
