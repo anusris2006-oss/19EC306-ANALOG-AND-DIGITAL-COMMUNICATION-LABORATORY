@@ -6,6 +6,7 @@ MATLAB
 
  
 # PROGRAM:
+```
 clc;
 
 t=0:0.0001:0.15;
@@ -42,7 +43,7 @@ plot(c);
 subplot(3,1,3);
 
 plot(y1);
-
+```
 # OUTPUT:
 
 <img width="765" height="515" alt="image" src="https://github.com/user-attachments/assets/f4975098-057c-49c0-bd49-aa7e5c2561e8" />
