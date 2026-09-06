@@ -5,6 +5,7 @@ To implement FSK using MATLAB.
 MATLAB
 
 # PROGRAM:
+```
 clc;
 
 clear;
@@ -75,6 +76,7 @@ xlabel('Time (s)');
 ylabel('Amplitude');
 
 title('BFSK Modulated Output');
+```
 
 # OUTPUT:
 <img width="838" height="608" alt="image" src="https://github.com/user-attachments/assets/1c58c78b-5276-44af-ad21-cee33eb6c871" />
