@@ -6,6 +6,7 @@ MATLAB
 
 # PROGRAM:
 # SHANNON FANO :
+```
 clc;
 
 clear all;
@@ -98,8 +99,10 @@ display(100 * h / l);
 fprintf('Redundancy : ');
 
 display(100 - (100 * h / l));
+```
 
 # Input:
+```
 Enter the Number of message ensembles: 4
 Enter the probabilities in ascending order Ensemble 1
 0.1
@@ -109,7 +112,7 @@ Ensemble 3
 0.3
 Ensemble 4
 0.4
-
+```
 # OUTPUT:
 <img width="605" height="651" alt="image" src="https://github.com/user-attachments/assets/5658f22e-745e-4ea4-a306-5f454cb5cbea" />
 
