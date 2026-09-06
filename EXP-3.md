@@ -24,12 +24,13 @@ Note: Keep the connections as per the procedure.
 Now switch corresponding fault switch button in ON condition & observe the different effect onthe output. The faults are normally used one at a time. Put Switch 1 of SF1 in Switch Fault section to ON position. The feedback resistor isbypassed from Amplifiersection. Gainof Amplifiernowdepends on potentiometer P5 only Put switch 2 of SF1 in Switch Fault section to ON position. This will generate twomixedsinewaves, whichcouldbeused as a modulatinginput signal for modulators PAM, PWM and PPM. Put switch 3 of SF1 in Switch Fault section to ON position. This willbypass one filter from filter section. The output consists of ripple with reference to previous output without switch fault. Put switch 4 of SF1 in Switch Fault section to ON position. This provides constant high sampling signal to the sampling switch, which in turn gives natural sampling at the output. Put switch 5 of SF2 in Switch Fault section to ON position. This removes the control signal of first switch of PAM section, this will open pin of CMOS IC. Due to this output will be abrupt or may follow the input.
 
 # BLOCK DIAGRAM:
-<img width="845" height="1079" alt="image" src="https://github.com/user-attachments/assets/48412fdd-c336-482a-a5ab-1ba686556188" />
+<img width="822" height="540" alt="image" src="https://github.com/user-attachments/assets/27551a96-9e49-4436-842f-916a4c1e69a7" />
 
 # Tabulation:
+<img width="1599" height="1128" alt="image" src="https://github.com/user-attachments/assets/346d8eb4-0e03-40a2-9070-565ea5576d00" />
 
 # MODEL GRAPH:
-<img width="599" height="798" alt="image" src="https://github.com/user-attachments/assets/3841e33a-12a4-4fc3-b67b-41285af5878d" />
+<img width="549" height="760" alt="image" src="https://github.com/user-attachments/assets/48f9a325-8a25-4d0a-9a11-77e0c57fdc2e" />
 
 # OUTPUT GRAPH:
 
