@@ -34,6 +34,7 @@ c)	Modulation index greater than 1
 
 
 # TABULATION:
+<img width="1599" height="996" alt="image" src="https://github.com/user-attachments/assets/7351d625-d026-45e3-a98d-7c7561c362e5" />
 
 
 # RESULT:
