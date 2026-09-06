@@ -22,12 +22,13 @@ Keep CH1 knob of CRO on 1 Volt/ divac. Keep CH2 knob of CRO on 2 Volts/ divac. K
 Keep the CRO in Dual channel (Auto/ TV mode). Use X10 for expansion. After proper triggering of CRO, observe both the signals PWM IN and PWM
 
 # BLOCK DIAGRAM:
-<img width="803" height="922" alt="image" src="https://github.com/user-attachments/assets/2b5805a5-8c98-4a76-a244-c704b97bba63" />
+<img width="686" height="442" alt="image" src="https://github.com/user-attachments/assets/44672a27-1612-4ff9-a6cf-2888f8837d9f" />
 
 # Tabulation:
+<img width="1599" height="904" alt="image" src="https://github.com/user-attachments/assets/069726ef-c512-4593-a16a-102896756c34" />
 
 # Model Graph:
-<img width="697" height="81" alt="image" src="https://github.com/user-attachments/assets/aa4034f9-a0d1-46b9-a323-56edaa038f22" />
+<img width="526" height="458" alt="image" src="https://github.com/user-attachments/assets/c779b206-5c8b-44d8-b0b6-4fffcfe3414b" />
 
 # OUTPUT GRAPH:
 
