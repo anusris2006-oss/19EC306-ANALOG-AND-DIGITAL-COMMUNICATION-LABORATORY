@@ -31,6 +31,7 @@ Keep the CRO in Dual channel (Auto/ TV mode). Use X10 for expansion. After prope
 <img width="526" height="458" alt="image" src="https://github.com/user-attachments/assets/c779b206-5c8b-44d8-b0b6-4fffcfe3414b" />
 
 # OUTPUT GRAPH:
+<img width="1250" height="1600" alt="image" src="https://github.com/user-attachments/assets/933402cf-5978-4b01-8cc1-551e60f70e68" />
 
 # Result:
 Thus the pulse width modulated and demodulated signals is generated and output is verified.
