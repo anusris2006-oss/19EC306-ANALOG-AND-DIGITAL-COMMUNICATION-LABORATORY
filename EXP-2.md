@@ -2,7 +2,15 @@
 To observe and measure the frequency deviation and the modulation index of FM.
 
 # APPARATUS REQUIRED:
-Modulus ACL-03 Power supply Oscilloscope Voltmeter Frequency meter Connecting wires Function generator
+```
+Modulus ACL-03
+Power supply
+Oscilloscope
+Voltmeter 
+Frequency meter
+Connecting wires
+Function generator
+```
 
 # THEORY:
 Frequency modulation is a type of modulation in which the frequency of the high frequency (carrier) is varied in accordance with the instantaneous value of the modulating signal.
@@ -26,6 +34,7 @@ Connect the oscilloscope to the output of the modulator RN/RE.
 <img width="333" height="571" alt="image" src="https://github.com/user-attachments/assets/e2fe000a-48f5-4281-a1c7-99847167121a" />
 
 # OUTPUT GRAPH: 
+<img width="1214" height="1599" alt="image" src="https://github.com/user-attachments/assets/275af777-2b32-467c-bd48-d147bfe3529b" />
 
 # TABULATION:
 <img width="1600" height="1150" alt="image" src="https://github.com/user-attachments/assets/6a8ba87c-82be-48ba-a8dc-c824d9dc8da6" />
