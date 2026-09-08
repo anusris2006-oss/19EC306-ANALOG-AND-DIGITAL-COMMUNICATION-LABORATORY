@@ -6,9 +6,9 @@ In Pulse Amplitude Modulation, the signal is sampled at regular intervals and th
 The Pulse Amplitude Demodulator consists of Active Low Pass Butterworth Filler. It filters out the sampling frequency and their harmonics from the modulated signal and recovers the base band by integratedaction
 
 # EQUIPMENTS
-Experimental kit DCL -08 Connecting chords
-Power supply
-20 MHz Dual trace oscilloscope
+Experimental kit DCL -08, Connecting chords,
+Power supply,
+20 MHz Dual trace oscilloscope,
 NOTE: Keep The Switch Faults In Off Position.
 
 # PROCEDURE
@@ -33,6 +33,7 @@ Now switch corresponding fault switch button in ON condition & observe the diffe
 <img width="549" height="760" alt="image" src="https://github.com/user-attachments/assets/48f9a325-8a25-4d0a-9a11-77e0c57fdc2e" />
 
 # OUTPUT GRAPH:
+<img width="1228" height="1600" alt="image" src="https://github.com/user-attachments/assets/aaceabdc-3fe7-4209-a5c8-71b3132a9ff2" />
 
 # Result:
 Thus the pulse amplitude modulated and demodulated signals is generated and output is verified.
