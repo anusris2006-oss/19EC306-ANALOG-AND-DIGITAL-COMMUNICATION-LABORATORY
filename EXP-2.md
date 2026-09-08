@@ -2,7 +2,7 @@
 To observe and measure the frequency deviation and the modulation index of FM.
 
 # APPARATUS REQUIRED:
-```
+``` 
 Modulus ACL-03
 Power supply
 Oscilloscope
