@@ -9,11 +9,12 @@ The input signal is Pulse Width Modulated, so the ON time of the signal is chang
 the amplitude of input signal. Thus train of varying pulse widths gives varying count values and accordingly DAC give outputs, which is directly proportional to amplitude of input signal. This is then filtered to get original signal. Thus at the output we get the original modulating signal extracted from PWM wave.
  
 # EQUIPMENTS:
+```
 Experimental kit DCL -08 Connecting chords
 Power supply
 20 MHz Dual trace oscilloscope
 NOTE: Keep The Switch Faults In Off Position.
- 
+```
 
 # PROCEDURE:
 Refer to the block diagram (Fig. 2) and carry out the following connections	and switch Connect the Power Supply with proper polarity to the kit DCL-08 and switch it on.
@@ -22,7 +23,7 @@ Keep CH1 knob of CRO on 1 Volt/ divac. Keep CH2 knob of CRO on 2 Volts/ divac. K
 Keep the CRO in Dual channel (Auto/ TV mode). Use X10 for expansion. After proper triggering of CRO, observe both the signals PWM IN and PWM
 
 # BLOCK DIAGRAM:
-<img width="686" height="442" alt="image" src="https://github.com/user-attachments/assets/44672a27-1612-4ff9-a6cf-2888f8837d9f" />
+<img width="1600" height="1002" alt="image" src="https://github.com/user-attachments/assets/38807cb5-ddbf-402a-8ce8-6cf51ac65ba4" />
 
 # Tabulation:
 <img width="1599" height="904" alt="image" src="https://github.com/user-attachments/assets/069726ef-c512-4593-a16a-102896756c34" />
