@@ -9,20 +9,34 @@ To implement error control coding schemes with linear block codes using MATLAB.
 # ENCODING:
 ```
 clc;
-
+clear;
 close all;
 
-n = 7;
+msg = [
+    1 0 0 1
+    1 0 1 0
+    1 0 1 1
+];
 
-k = 4;
+% Parity matrix for a systematic (7,4) cyclic/Hamming code
+P = [
+    1 1 0
+    1 0 1
+    0 1 1
+    1 1 1
+];
 
-msg = [1 0 0 1; 1 0 1 0; 1 0 1 1];
+% Generator matrix G = [I4 P]
+G = [eye(4), P];
 
-code = encode(msg, n, k, 'cyclic');
+% Binary encoding
+code = mod(msg * G, 2);
 
-msg
+disp('msg =');
+disp(msg);
 
-code
+disp('code =');
+disp(code);
 ```
 # ENCODING OUTPUT:
 <img width="473" height="322" alt="image" src="https://github.com/user-attachments/assets/32dee773-48ef-47ea-a1c0-b01f4ff15cf3" />
@@ -30,38 +44,54 @@ code
 # DECODING PROGRAM:
 ```
 clc;
-
-clear all;
-
+clear;
 close all;
 
 q = 3;
-
 n = 2^q - 1;
-
 k = n - q;
 
-parmat = hammgen(q);
+% Parity-check matrix for the (7,4) Hamming code
+parmat = [
+    1 0 0 0 1 1 1
+    0 1 0 1 1 1 0
+    0 0 1 1 0 1 1
+];
 
-trt = syndtable(parmat);
+% Received codeword
+recd = [1 0 1 1 1 1 0]; 
 
-recd = [1 0 1 1 1 1 0];
+% Calculate the syndrome
+syndrome = mod(recd * parmat', 2);
 
-syndrome = rem(recd * parmat', 2);
+% Convert left-MSB binary syndrome to decimal
+syndrome_de = syndrome * (2.^(q-1:-1:0))';
 
-syndrome_de = bi2de(syndrome, 'left-msb');
+fprintf('syndrome = %d (decimal)  ', syndrome_de);
+fprintf('%d ', syndrome);
+fprintf('(binary)\n\n');
 
-disp(['syndrome = ', num2str(syndrome_de), ' (decimal) ', ... num2str(syndrome), ' (binary)']);
+% Locate the erroneous bit
+error_position = find(all(parmat == syndrome', 1), 1);
 
-corrvect = trt(1 + syndrome_de, :);
+% Create correction vector
+corrvect = zeros(1, n);
 
-correctedcode = rem(corrvect + recd, 2);
+if ~isempty(error_position)
+    corrvect(error_position) = 1;
+end
 
-parmat
+% Correct the received codeword
+correctedcode = mod(recd + corrvect, 2);
 
-correct
+disp('parmat =');
+disp(parmat);
 
-correctedcode
+disp('corrvect =');
+disp(corrvect);
+
+disp('correctedcode =');
+disp(correctedcode);
 ```
 # DECODING OUTPUT:
 <img width="415" height="267" alt="image" src="https://github.com/user-attachments/assets/ce1e6214-cb04-444d-be85-f347f8dd1627" />
